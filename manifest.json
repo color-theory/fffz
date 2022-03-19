@@ -1,6 +1,6 @@
 {
 	"name": "fffz",
-	"description": "Chrome Extension to add ffz emotes",
+	"description": "Chrome Extension to add custom emotes to twitch chat",
 	"version": "1.0",
 	"manifest_version": 3,
 	"action": {},

@@ -1,8 +1,8 @@
 # fffz
-chrome extension for ffz without the cruft
+Chrome Extension to add custom emotes to twitch chat
 
 This is an _extremely_ lightweight text replacement extension for use with twitch.tv. It is meant to be an alternative for people who would
-rather not install proprietary extensions with risky permissions. 
+rather not install proprietary code with risky permissions. 
 
 ## How to use
 This assumes that you know how to install local extensions onto your chrome browser, but here are the basics.
