@@ -1,0 +1,19 @@
+{
+	"name": "fffz",
+	"description": "Chrome Extension to add ffz emotes",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {},
+	"permissions": ["webNavigation", "activeTab", "tabs", "scripting"],
+	"host_permissions": ["https://twitch.tv/"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+		  "matches": ["https://*/*"],
+		  "all_frames": true,
+		  "js": ["main.js"]
+		}
+	]
+}
